@@ -1,0 +1,10 @@
+/* ========================================================================================== */
+/*  Project: WebDMS
+/*  Author: Digital Experience
+/*  Date: Tue Dec 13 2022 15:42:13 GMT+0000 (Coordinated Universal Time)
+/*  
+/*  Copyright © 2022 Red Hat, Inc.
+/*  https://www.redhat.com
+/* ========================================================================================== */
+
+.vid-screen{position:fixed;z-index:2000;width:100%;height:100%;background:#fff}.cloud-dot-card h3,.cloud-dot-card p{color:#000}.cloud-dot-card:hover{background-color:#000!important}.cloud-dot-card:hover h3,.cloud-dot-card:hover p{color:#fff}.bg-cloud-half{background:-webkit-gradient(linear,left bottom,left top,color-stop(50%,transparent),color-stop(50%,#f6f6f6));background:linear-gradient(0deg,transparent 50%,#f6f6f6 50%)}.shadow{-webkit-box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important}

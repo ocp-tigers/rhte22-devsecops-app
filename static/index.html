@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://cloud.redhat.com/getting-started -->
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class=" js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <noscript>
+            <link href="/themes/custom/rh_cloud/dist/css/lib/webrh.webcomponents.noscript.css" rel="stylesheet" >
+    </noscript>
+    
+<link rel="canonical" href="https://cloud.redhat.com/getting-started">
+<link rel="image_src" href="https://cloud.redhat.com/themes/custom/rh_cloud/src/assets/red-hat-social-share.jpg">
+<meta name="description" content="The Red Hat Hybrid Cloud Console offers tools to build your applications quickly, while enhancing security and compliance across operating environments.">
+<meta property="og:site_name" content="Red Hat Hybrid Cloud">
+<meta property="og:url" content="https://cloud.redhat.com/getting-started">
+<meta property="og:title" content="Start building and scaling applications in the Red Hat Hybrid Cloud Console">
+<meta property="og:description" content="The Red Hat Hybrid Cloud Console offers tools to build your applications quickly, while enhancing security and compliance across operating environments.    ">
+<meta property="og:image" content="https://cloud.redhat.com/themes/custom/rh_cloud/src/assets/red-hat-social-share.jpg">
+<meta property="og:image:url" content="https://cloud.redhat.com/themes/custom/rh_cloud/src/assets/red-hat-social-share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="The Red Hat Hybrid Cloud Console offers tools to build your applications quickly, while enhancing security and compliance across operating environments.    ">
+<meta name="twitter:title" content="Start building and scaling applications in the Red Hat Hybrid Cloud Console">
+<meta name="twitter:url" content="https://cloud.redhat.com/getting-started">
+<meta name="twitter:image" content="https://cloud.redhat.com/themes/custom/rh_cloud/src/assets/red-hat-social-share.jpg">
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)">
+<meta name="MobileOptimized" content="width">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://cloud.redhat.com/themes/custom/rh_cloud/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="alternate" hreflang="en" href="https://cloud.redhat.com/getting-started">
+<link type="text/css" rel="stylesheet" href="./static_files/advanced-theme.css">
+<link type="text/css" rel="stylesheet" href="./static_files/styles.min.css">
+<link type="text/css" rel="stylesheet" href="./static_files/cloud-dot.min.css">
+<script type="text/javascript" async="" src="./static_files/pkebsuhdupai.js"></script><script type="text/javascript" async="" src="./static_files/insight.min.js"></script><script async="" src="./static_files/uwt.js"></script><script async="" src="./static_files/fbevents.js"></script><script async="" src="./static_files/tag.aspx"></script><script type="text/javascript" async="" src="./static_files/6si.min.js"></script><script type="text/javascript" src="./static_files/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./static_files/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="./static_files/viewport.min.js"></script>
+<script type="text/javascript" src="./static_files/scripts.min.js"></script>
+<script type="text/javascript" src="./static_files/cloud-dot.min.js"></script>
+
+    <title>Start building and scaling applications in the Red Hat Hybrid Cloud Console | Red Hat Hybrid Cloud</title>
+
+        <!-- TrustArc -->
+    <!-- <script src="./static_files/trustarc.js"></script><script type="text/javascript" src="./static_files/notice"></script> -->
+    <!-- End TrustArc -->
+    
+        <!-- Dpal -->
+    <script id="dpal" src="./static_files/dpal.js"></script><script src="./static_files/AppMeasurement.min.js" async=""></script><script src="./static_files/AppMeasurement_Module_ActivityMap.min.js" async=""></script><script>_satellite["_runScript1"](function(event, target, Promise) {
+_satellite.setVar("targetActivityInfo", "");
+window.document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
+    ttMETAINFO = typeof(ttMETAINFO) != "undefined" ? ttMETAINFO : [];
+    var tokens = e.detail.responseTokens;
+    if (!isEmpty(tokens)) {
+         var targetActivityInfo = "";
+        tokens.forEach(function(token) {
+             ttMETAINFO.push(
+                token["activity.id"] +"|"+
+                token["experience.id"] //+"|"+
+                //token["option.id"]
+                );
+        });
+        targetActivityInfo = ttMETAINFO.join(",")
+      _satellite.setVar("_targetActivityInfo", targetActivityInfo);
+    }
+});
+
+function isEmpty(val) {
+    return (val === undefined || val == null || val.length <= 0) ? true : false;
+}
+});</script><script>_satellite["_runScript2"](function(event, target, Promise) {
+var targetWaitAttempts = 0;
+
+var awaitBody = function(offer){
+	//mbox call has returned, ensure <body> exists, then add the mbox DIV
+	var docBody  = document.getElementsByTagName("body"),
+		int_mbox;
+	if(docBody.length){
+		int_mbox = document.createElement("div");
+		docBody = docBody[0];
+		int_mbox.id = "int_mbox";
+		int_mbox.classList.add("mboxDefault");
+		int_mbox.style.display = "none";
+		//place mbox DIV as first tag within BODY
+		docBody.insertBefore(int_mbox, docBody.firstChild);
+	
+		//now that receiving DIV is in place, inject the offer code
+		adobe.target.applyOffer({
+			"mbox": "int_mbox",
+			"selector": "#int_mbox",
+			"offer": offer
+		});
+	
+		//and then un-hide the mbox DIV
+		int_mbox.style.display = "block";
+	}else{
+		setTimeout(function(){awaitBody(offer)},100);
+	}
+}
+
+var awaitTarget = function(){
+	if (typeof adobe !== "undefined" && typeof adobe.target !== "undefined" && typeof adobe.target.getOffer !== "undefined") {
+		//First get the mbox call going out
+		adobe.target.getOffer({
+			"mbox": "int_mbox",
+			"success": function(offer) {
+				awaitBody(offer);
+			},
+			// Handle errors gracefully
+			"error": function(status, error) {}
+		});
+	}else{
+		if(++targetWaitAttempts < 50){
+			setTimeout(awaitTarget,100);
+		}
+	}
+}
+awaitTarget();
+});</script><script src="./static_files/rh.mktg.js"></script>
+    <!-- End Dpal -->
+    
+    <link rel="stylesheet" media="all" href="./static_files/ajax-progress.module.css">
+<link rel="stylesheet" media="all" href="./static_files/align.module.css">
+<link rel="stylesheet" media="all" href="./static_files/autocomplete-loading.module.css">
+<link rel="stylesheet" media="all" href="./static_files/fieldgroup.module.css">
+<link rel="stylesheet" media="all" href="./static_files/container-inline.module.css">
+<link rel="stylesheet" media="all" href="./static_files/clearfix.module.css">
+<link rel="stylesheet" media="all" href="./static_files/details.module.css">
+<link rel="stylesheet" media="all" href="./static_files/hidden.module.css">
+<link rel="stylesheet" media="all" href="./static_files/item-list.module.css">
+<link rel="stylesheet" media="all" href="./static_files/js.module.css">
+<link rel="stylesheet" media="all" href="./static_files/nowrap.module.css">
+<link rel="stylesheet" media="all" href="./static_files/position-container.module.css">
+<link rel="stylesheet" media="all" href="./static_files/progress.module.css">
+<link rel="stylesheet" media="all" href="./static_files/reset-appearance.module.css">
+<link rel="stylesheet" media="all" href="./static_files/resize.module.css">
+<link rel="stylesheet" media="all" href="./static_files/sticky-header.module.css">
+<link rel="stylesheet" media="all" href="./static_files/system-status-counter.css">
+<link rel="stylesheet" media="all" href="./static_files/system-status-report-counters.css">
+<link rel="stylesheet" media="all" href="./static_files/system-status-report-general-info.css">
+<link rel="stylesheet" media="all" href="./static_files/tabledrag.module.css">
+<link rel="stylesheet" media="all" href="./static_files/tablesort.module.css">
+<link rel="stylesheet" media="all" href="./static_files/tree-child.module.css">
+<link rel="stylesheet" media="all" href="./static_files/rhhc_learning_paths.css">
+<link rel="stylesheet" media="all" href="./static_files/extlink.css">
+<link rel="stylesheet" media="all" href="./static_files/onecol.css">
+<link rel="stylesheet" media="all" href="./static_files/googlecode.css">
+<link rel="stylesheet" media="all" href="./static_files/rh-web-iconfont.css">
+<link rel="stylesheet" media="all" href="./static_files/red-hat-font.css">
+<link rel="stylesheet" media="all" href="./static_files/webrh.min.css">
+<link rel="stylesheet" media="all" href="./static_files/lightbox.min.css">
+<link rel="stylesheet" media="all" href="./static_files/webrh.webcomponents.min.css">
+<link rel="stylesheet" media="all" href="./static_files/advanced-theme(1).css">
+<link rel="stylesheet" media="all" href="./static_files/rh_cloud.css">
+<link rel="stylesheet" media="all" href="./static_files/prism.css">
+
+    
+  <script src="./static_files/RC64c4139883b6449e9007dae118d46129-source.min.js" async=""></script><script async="" src="./static_files/hotjar-1712492.js"></script><script src="./static_files/RCac5fd381b6a44775b543c4561a39d015-source.min.js" async=""></script><script src="./static_files/RCadbc8ee2a6f6486ab3c0e68892826409-source.min.js" async=""></script><script src="./static_files/RCc467639c211341fea8a19b69668c29a5-source.min.js" async=""></script><script src="./static_files/RC165198a9547a466eb1a7ece5c70fd7cc-source.min.js" async=""></script><script type="text/javascript" src="./static_files/oct.js"></script><script src="./static_files/RC8fd79e9f4e5942d7b94e766cb5eb9256-source.min.js" async=""></script><script type="text/javascript" src="./static_files/elqCfg.min.js"></script><script src="./static_files/RC0548ca5c51b34db08240b0dce9707f2f-source.min.js" async=""></script><style type="text/css">.drift-conductor-item iframe,
+.drift-frame-controller {
+  display: block;
+  min-width: 0;
+  max-width: none;
+  min-height: 0;
+  max-height: none;
+}
+
+.drift-conductor-item iframe {
+  color-scheme: light only;
+  border: none !important;
+  background: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+}
+
+.drift-conductor-item.with-transition {
+  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
+  transition: opacity .5s ease, -webkit-transform .5s ease;
+  -o-transition: opacity .5s ease, -o-transform .5s ease;
+  -moz-transition: opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
+  transition: opacity .5s ease, transform .5s ease;
+  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
+}
+
+.drift-frame-chat.with-transition.drift-frame-chat__takeover {
+  -webkit-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+
+.drift-conductor-item.with-height-transition {
+  -webkit-transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+  transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+  -o-transition: max-height .5s ease, opacity .5s ease, -o-transform .5s ease;
+  -moz-transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
+  transition: max-height .5s ease, opacity .5s ease, transform .5s ease;
+  transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
+}
+
+.drift-conductor-item {
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.drift-frame-controller {
+  bottom: 24px;
+}
+
+.drift-frame-controller-align-left {
+  left: 24px;
+}
+
+.drift-frame-controller-align-right {
+  right: 24px;
+}
+
+.drift-frame-chat:not(iframe) {
+  bottom: -webkit-calc(12px + 52px + 24px);
+  bottom: -moz-calc(12px + 52px + 24px);
+  bottom: calc(12px + 52px + 24px); /* vertical margin x 2 + widget icon size*/
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  opacity: 0;
+  visibility: hidden;
+
+  -webkit-transform: translateY(88px);
+
+     -moz-transform: translateY(88px);
+
+      -ms-transform: translateY(88px);
+
+       -o-transform: translateY(88px);
+
+          transform: translateY(88px);
+}
+
+.drift-frame-chat:not(iframe).drift-chat-open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.drift-frame-chat.drift-frame-chat__takeover:not(iframe):not(.drift-frame--mobile) {
+  min-width: 600px;
+}
+
+.drift-frame-chat-align-left {
+  left: 12px;
+}
+
+.drift-frame-chat-align-right {
+  right: 12px;
+}
+
+.drift-frame-takeover,
+.drift-frame-landingPage,
+.drift-frame-chat__takeover {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.drift-frame-chat__takeover.hide-frame {
+  visibility: hidden;
+}
+
+.drift-frame-emailCapture {
+  bottom: 0;
+  height: -webkit-calc(100% + 30px);
+  height: -moz-calc(100% + 30px);
+  height: calc(100% + 30px);
+}
+
+.drift-frame-emailCapture-align-left {
+  left: 0;
+}
+
+.drift-frame-emailCapture-align-right {
+  right: 0;
+}
+
+.drift-frame-slider {
+  bottom: 18px;
+  height: -webkit-calc(100% + 20px);
+  height: -moz-calc(100% + 20px);
+  height: calc(100% + 20px);
+}
+
+.drift-frame-slider-align-left {
+  left: 96px;
+}
+
+.drift-frame-slider-align-right {
+  right: 96px;
+}
+
+.drift-frame--mobile.drift-frame-slider-align-left {
+  left: 68px;
+}
+
+.drift-frame--mobile.drift-frame-slider-align-right {
+  right: 68px;
+}
+
+.drift-widget-content-box {
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  z-index: 2147483647;
+  top: 0;
+  left: 0;
+}
+
+.drift-widget-content-box > * {
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-height: 80%;
+
+}
+
+@media
+(max-height: 685px),
+(min-width: 369px) and (max-width: 380px),
+(max-width: 367px),
+
+(min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait)
+
+{
+  .drift-frame--mobile.drift-frame-chat.drift-chat-open {
+    bottom: 0 !important;
+    right: 0;
+    left: 0;
+    z-index: 2147483647 !important;
+  }
+
+  .drift-frame--mobile.drift-frame-controller {
+    bottom: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-left {
+    left: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-right {
+    right: 0;
+  }
+
+
+  .drift-frame--mobile.drift-frame-controller.drift-chat-open {
+    display: none;
+  }
+
+  .drift-frame--mobile.drift-frame-slider {
+    bottom: 0;
+    max-width: 320px;
+  }
+
+  .drift-frame--mobile iframe.drift-frame-chat {
+    width: 1px !important;
+    min-width: 100%;
+
+    height: 1px !important;
+    min-height: 100%;
+  }
+
+  html.drift-widget-parent--chat-open,
+  html.drift-widget-parent--chat-open > body {
+    height: 100vh !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    position: static !important;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .drift-frame--mobile.drift-frame-controller.drift-chat-open {
+    display: none;
+  }
+
+  .drift-frame--mobile.drift-frame-controller {
+    bottom: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller-align-right {
+    right: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller-align-left {
+    left: 0;
+  }
+}
+
+.drift-frame-chat.widget--xs.drift-chat-open {
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.drift-frame-controller.widget--xs.drift-chat-open {
+  display: none;
+}
+
+</style></head>
+  <body class="" style="--pfe-jump-links--Height--actual:0px;" data-new-gr-c-s-check-loaded="14.1091.0" data-gr-ext-installed=""><div id="int_mbox" class="mboxDefault at-element-marker" style="display: block;"></div>
+    <a href="https://cloud.redhat.com/getting-started#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    
+	  <section class="universal-navigation-container">
+    <div class="l-page__header-wrapper" id="header">
+      
+<nav role="navigation" aria-labelledby="block-systemnavigation-menu" id="block-systemnavigation" class="system-menu" data-analytics-region="universal-navigation">
+
+  <div class="system-menu__inner">
+                      
+      <h2 class="visually-hidden" id="block-systemnavigation-menu">System Navigation</h2>
+    
+
+            
+
+  <ul class="menu menu-level-0">
+
+ <!-- 
+                            
+    
+    <li class="menu-item menu-item--no-border menu-item--active">
+              <a href="https://console.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Console" class="menu-item__link">Console</a>
+            
+              
+  
+  <div class="menu_link_content menu-link-contentsystem-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+      </div>
+
+
+
+          </li>
+  
+                      
+    
+    
+    <li class="menu-item menu-item--no-border menu-item--not-active">
+              <a href="https://access.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Support" class="menu-item__link">Support</a>
+            
+              
+  
+  <div class="menu_link_content menu-link-contentsystem-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+      </div>
+
+
+
+          </li>
+  
+                      
+    
+    
+    <li class="menu-item menu-item--no-border menu-item--not-active">
+              <a href="https://developers.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Developers" class="menu-item__link">Developers</a>
+            
+              
+  
+  <div class="menu_link_content menu-link-contentsystem-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+      </div>
+
+
+
+          </li>
+  
+                      
+    
+    
+    <li class="menu-item menu-item--no-border menu-item--not-active">
+              <a href="https://connect.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Partners" class="menu-item__link">Partner Connect</a>
+            
+              
+  
+  <div class="menu_link_content menu-link-contentsystem-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+      </div>
+
+
+
+          </li>
+  
+                      
+    
+    
+    <li class="menu-item menu-item--no-border menu-item--not-active">
+              <a href="https://www.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="redhat.com" class="menu-item__link">redhat.com</a>
+            
+              
+  
+  <div class="menu_link_content menu-link-contentsystem-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+      </div>
+
+
+
+          </li>
+  
+                      
+    
+    
+    <li class="menu-item menu-item--border menu-item--not-active">
+              <span class=" menu-item--border-inner">
+          <a href="https://www.redhat.com/en/products/trials" data-analytics-category="Featured Links" data-analytics-text="Start a trial" data-analytics-linktype="cta" class="menu-item__link-border">Start a trial</a>
+        </span>
+            
+              
+  
+  <div class="menu_link_content menu-link-contentsystem-navigation view-mode-default menu-dropdown menu-dropdown-0 menu-type-default">
+              
+      </div>
+
+
+
+          </li>
+-->
+    </ul>
+
+
+      </div>
+</nav>
+  
+  <pfe-navigation data-analytics-region="mega menu" id="pfe-navigation" role="banner" lang="en" pfelement="" class="PFElement pfe-navigation--processed pfe-navigation--has-search pfe-navigation--custom-dropdowns--processed" type="combo" has_search="" breakpoint="desktop"> <nav data-analytics-region="main nav" role="navigation" aria-label="Main Navigation" id="block-redhatuniversalnavigation" class="pfe-navigation">
+    <div class="pfe-navigation__logo-wrapper" id="pfe-navigation__logo-wrapper">
+      <a href="https://cloud.redhat.com/" class="pfe-navigation__logo-link">
+                <img class="pfe-navigation__logo-image--small" src="./static_files/red-hat-hybrid-cloud--stacked--on-dark.svg" alt="Redhat Logo" style="width:201px; height: 41px; margin: 16px 0; display: none;">
+        <img class="pfe-navigation__logo-image--small" src="./static_files/red-hat-hybrid-cloud--stacked--on-dark.svg" alt="Redhat Logo" style="width:201px; height: 41px; margin: 16px 0;">
+      </a>
+    </div>
+              
+
+                      
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                  
+                              <ul class="pfe-navigation__menu" id="pfe-navigation__menu">
+              
+<!--                          
+                  <li class="pfe-navigation__menu-item view_mode_default">
+                                            <a href="https://cloud.redhat.com/getting-started" class="pfe-navigation__menu-link view_mode_default is-active" data-analytics-level="1" data-analytics-text="Getting started" data-analytics-category="Getting started" data-drupal-link-system-path="node/15" aria-current="page">Getting started</a>
+                                                                                
+
+          
+    
+
+
+                                  </li>
+                                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                  
+            
+                          
+                  <li class="pfe-navigation__menu-item view_mode_default">
+                                            <a href="https://cloud.redhat.com/learn" class="pfe-navigation__menu-link view_mode_default" data-analytics-level="1" data-analytics-text="Learn" data-analytics-category="Learn" data-drupal-link-system-path="node/16">Learn</a>
+                                                                                
+
+          
+    
+
+
+                                  </li>
+                                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                  
+            
+                          
+                  <li class="pfe-navigation__menu-item view_mode_default">
+                                            <a href="https://cloud.redhat.com/blog" class="pfe-navigation__menu-link view_mode_default" data-analytics-level="1" data-analytics-text="Blog" data-analytics-category="Blog">Blog</a>
+                                                                                
+
+          
+    
+
+
+                                  </li>
+                                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                  
+            
+                          
+                  <li class="pfe-navigation__menu-item view_mode_default">
+                                            <a href="https://access.redhat.com/products" class="pfe-navigation__menu-link view_mode_default" data-analytics-level="1" data-analytics-text="Documentation" data-analytics-category="Documentation">Documentation</a>
+                                                                                
+
+          
+    
+
+
+                                  </li>
+-->
+                                  </ul>
+                        
+
+      </nav>
+      <!-- Site Search -->
+<!--
+    <div slot="search" class="pfe-navigation__search pfe-navigation__search--default-styles">
+      <form action="https://cloud.redhat.com/search" method="get">
+        <label for="pfe-navigation__search-label-universal">Search</label>
+        <input id="pfe-navigation__search-label-universal" name="q" type="text" placeholder="Search">
+        <button>Search</button>
+      </form>
+    </div>
+-->
+    <!-- End Site Search -->
+  <!-- Custom Button -->
+      
+      <div slot="secondary-links" class="pfe-navigation__secondary-links" id="pfe-navigation__secondary-links">
+                          <style>
+            #pfe-navigation.pfe-navigation--processed [slot=secondary-links] > a.contact > pfe-icon,
+            pfe-navigation.pfe-navigation--processed [slot=secondary-links] > a.contact > pfe-icon {
+              --pfe-icon--size: 27px;
+            }
+          </style>
+                   <!--     <a href="https://www.redhat.com/en/contact" class="contact">
+                      <pfe-icon icon="rh-icon-talk-bubble" size="xl" pfelement="" class="PFElement" on="light" type="content"></pfe-icon>
+                    Contact us
+        </a>
+-->
+      </div>
+    
+      <div slot="secondary-links" class="pfe-navigation__secondary-links" id="pfe-navigation__secondary-links">
+      <!--                          <a href="https://console.redhat.com/" class="user">
+                      <pfe-icon icon="web-user" size="1x" pfelement="" class="PFElement" on="light" type="content"></pfe-icon>
+                    Console login
+        </a>
+ ec
+    </div>
+        <!-- End Custom Button -->
+
+    </pfe-navigation>
+<style>:root
+{
+  --rh-custom-column-top-margin: 41px;
+}
+@media(max-width: 1200px){:root {
+  --rh-custom-column-top-margin: 0;
+}
+}</style>
+    </div>
+  </section>
+
+
+
+	
+
+    <div>
+    <div data-drupal-messages-fallback="" class="hidden"></div>
+
+  </div>
+
+
+  
+
+
+  
+
+<div id="main-content"></div>
+
+    <div>
+    <div id="block-mainpagecontent">
+  
+    
+      <article data-history-node-id="15" role="article" about="/getting-started">
+
+  
+    
+
+  
+  <div>
+      <div class="layout layout--onecol">
+    <div class="layout__region layout__region--content">
+      <div>
+  
+    
+      <!-- Pattern | raw_html -->
+
+<section class="dms-band cloud-dot-get-started bg-size-cover bg-pos-rc bg-black pb-0 pb-md-4" data-bg-image-md="https://cloud.redhat.com/sites/default/files/2022-05/cloud-dot-hero-tablet.jpg" data-bg-image-xl="https://cloud.redhat.com/sites/default/files/2022-05/cloud-dot-hero-xl-1.jpg" style="background-image: url(&quot;https://cloud.redhat.com/sites/default/files/2022-05/cloud-dot-hero-xl-1.jpg&quot;);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-lg-6 col-xl-5 text-white">
+                <h1 class="xl">Welcome to the RHTE EMEA! <br>This is our awesome app!</h1>
+                <p class="text-white">Let's learn how to work with a secure delivery pipeline. </p>
+                <!-- <p class="cta-group mb-3">
+                    <a class="btn btn-outline-white" href="https://cloud.redhat.com/getting-started#build" title="Start by task" data-analytics-linktype="cta">Start by task</a>
+                    <a class="btn btn-outline-white" href="https://cloud.redhat.com/getting-started#openshift" title="Start by product" data-analytics-linktype="cta">Start by product</a>
+                </p> -->
+                <!--<p class="text-white"><a href="https://console.redhat.com/" title="Log in" class="text-blue-light ext" data-extlink="" target="_blank" rel="noopener noreferrer">Log in<span class="fa-ext extlink"><span class="rh-ext"><span class="visually-hidden">(link is external)</span></span></span></a> or <a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/registrations?client_id=cloud-services&amp;redirect_uri=https%3A%2F%2Fconsole.redhat.com%2F&amp;response_mode=fragment&amp;response_type=code&amp;scope=openid" title="Create an account" class="text-blue-light ext" data-extlink="" target="_blank" rel="noopener noreferrer">create an account<span class="fa-ext extlink"><span class="rh-ext"><span class="visually-hidden">(link is external)</span></span></span></a> to access all your Red&nbsp;Hat hosted services in 1 place.</p> -->
+            </div>   
+        </div>
+    </div>
+</section>
+  </div>
+<div>
+</div>
+
+  
+
+    <script type="text/javascript" src="./static_files/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./static_files/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="./static_files/viewport.min.js"></script>
+<script type="text/javascript" src="./static_files/scripts.min.js"></script>
+<script type="text/javascript" src="./static_files/cloud-dot.min.js"></script>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/15","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"red_hat_jwt":{"_core":{"default_config_hash":"CoUs3YDT1GFOThvdnkzlHlCYf-h5AhLF_UgUzoU8j90"},"client_id":"","cookie_name":"rh_jwt","leeway":"0","realm":"","sso_host":"https:\/\/sso.redhat.com\/","use_external_js":1,"use_internal_js":0,"user_integration":0,"user_plugin":"drupal_user_auth","use_in_admin":1},"data":{"extlink":{"extTarget":true,"extTargetAppendNewWindow":false,"extTargetNoOverride":true,"extNofollow":false,"extNoreferrer":true,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"","extInclude":"","extCssExclude":".lp-cta a, .lp-subtext a, .card","extCssExplicit":"article, .lp-hero","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"rh-ext","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"user":{"uid":0,"permissionsHash":"a9209f89d65431b820a7f4c8187e9407fb70048dc9fa2c58986c5fe8cad576f9"}}</scrip>
+<script src="./static_files/jquery.min.js"></script>
+<script src="./static_files/element.matches.js"></script>
+<script src="./static_files/object.assign.js"></script>
+<script src="./static_files/once.min.js"></script>
+<script src="./static_files/jquery.once.min.js"></script>
+<script src="./static_files/drupalSettingsLoader.js"></script>
+<script src="./static_files/drupal.js"></script>
+<script src="./static_files/drupal.init.js"></script>
+<script src="./static_files/js.cookie.min.js"></script> 
+<script src="./static_files/jquery.cookie.shim.js"></script>
+<script src="./static_files/keycloak.js"></script>
+<script src="./static_files/rh_cloud.min.js"></script>
+<script src="./static_files/webrh.min.js"></script>
+<script src="./static_files/webrh.vendor.min.js"></script>
+<script src="./static_files/webrh.webcomponents.min.js"></script>
+<script src="./static_files/prism.js"></script>
+<script src="./static_files/lightbox.min.js"></script>
+<script src="./static_files/jquery.once.bc.js"></script>
+<script src="./static_files/extlink.js"></script>
+
+          
+
+<script>_satellite["_runScript3"](function(event, target, Promise) {
+"use strict";
+
+window.LoadDriftWidget = function LoadDriftWidget() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load('pkebsuhdupai');
+};
+});</script><div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" tabindex="-1" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt=""><div class="lb-nav"><a class="lb-prev" aria-label="Previous image" href="https://cloud.redhat.com/getting-started"></a><a class="lb-next" aria-label="Next image" href="https://cloud.redhat.com/getting-started"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div><div id="ZN_bCxD2jjWRr4bfVQ"></div><!--<script type="text/javascript" src="./static_files/saved_resource"></script>--><div id="drift-frame-chat" class="drift-conductor-item drift-frame-chat drift-frame-chat-align-right" style="right: 12px; width: 400px !important; max-width: none; position: fixed; z-index: 2147483647; max-height: 0px; bottom: 88px; visibility: hidden; min-width: 320px; height: calc(100% - 75px) !important; opacity: 0;" aria-hidden="true" tabindex="-1"><iframe class="drift-frame-chat" scrolling="no" title="Drift Widget Chat Window" allow="autoplay; encrypted-media; fullscreen;" frameborder="0" src="./static_files/chat.html" style="background: transparent; width: 400px !important; max-width: 100%; height: 100%; border: none;" aria-hidden="true" tabindex="-1"></iframe></div><div id="drift-frame-controller" class="drift-conductor-item drift-frame-controller drift-frame-controller-align-right" style="right: 24px; width: 76px !important; max-width: none; position: fixed; z-index: 2147483647; height: 0px !important; bottom: 24px;"><iframe class="drift-frame-controller" scrolling="no" title="Drift Widget Chat Controller" allow="autoplay; encrypted-media; fullscreen;" frameborder="0" src="./static_files/core.html" style="background: transparent; width: 100%; max-width: 100%; height: 100%; border: none;"></iframe></div></body></html>
