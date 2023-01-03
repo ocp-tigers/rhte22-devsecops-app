@@ -7,8 +7,10 @@ import (
 	"os"
 )
 
+const version = "1.0"
+
 func serveApp(address string, infoLog *log.Logger, errorLog *log.Logger) {
-	infoLog.Printf("Starting Server on %s", address)
+	infoLog.Printf("Starting Server on %s. Version %s", address, version)
 	http.Handle("/", http.FileServer(http.Dir("./static")))
 	err := http.ListenAndServe(address, nil)
 	if err != nil {
