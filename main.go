@@ -9,9 +9,19 @@ import (
 
 const version = "1.0"
 
+func healthEndpoint(w http.ResponseWriter, r *http.Request) {
+	health := "Healthy"
+	_, err := w.Write([]byte(health + "\n"))
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+}
+
 func serveApp(address string, infoLog *log.Logger, errorLog *log.Logger) {
 	infoLog.Printf("Starting Server on %s. Version %s", address, version)
 	http.Handle("/", http.FileServer(http.Dir("./static")))
+	http.HandleFunc("/health", healthEndpoint)
 	err := http.ListenAndServe(address, nil)
 	if err != nil {
 		errorLog.Fatal(err)
